@@ -1,0 +1,5 @@
+total 12
+drwxr-xr-x 2 user221    1001 4096 Oct  1 09:33 .
+drwxr-xr-x 4 root    root    4096 Mar 17  2021 ..
+-rw------- 1 user221 user221   82 Oct  1 09:33 .bash_history
+-rw-r--r-- 1 user221 user221    0 Oct  1 09:33 user221-roidtc-classroom200.txt
