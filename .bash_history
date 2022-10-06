@@ -53,3 +53,9 @@ git init
 git add .
 git commit -m "initial commit"
 git init
+git add .
+git commit -m "initla commit"
+git ommit -m "initial commit"
+git commit -m "initial commit"
+git remote add origin https://github.com/PeeAir07/events-app-external.git
+git push -u origin main
