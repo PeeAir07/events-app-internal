@@ -173,3 +173,11 @@ git merge https://github.com/pranavkbansal/events-app-external
 git pull https://github.com/pranavkbansal/events-app-external
 git checkout
 git checkout -b coding-is-hard
+git commit -a -m "coding is hard"
+git checkout main
+git commit
+git checkout main
+git commit -a
+git branch
+git checkout main
+git checkout coding-is-hard
