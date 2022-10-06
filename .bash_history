@@ -181,3 +181,4 @@ git commit -a
 git branch
 git checkout main
 git checkout coding-is-hard
+git commit -a -m "some message"
