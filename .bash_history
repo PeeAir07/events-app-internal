@@ -50,3 +50,6 @@ npm install
 git branch
 npm start
 git init
+git add .
+git commit -m "initial commit"
+git init
