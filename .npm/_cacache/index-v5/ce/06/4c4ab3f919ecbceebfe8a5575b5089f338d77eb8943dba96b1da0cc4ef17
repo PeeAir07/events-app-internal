@@ -1,1 +1,3 @@
 
+
+a076a86674c326315030c3841ef24ae7f947c591	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/@types%2fflat","integrity":"sha512-tfB+qgIV2V57WXIG1HPbDZdvnfRpBPHUtfXTzxr5u97rln8TiZMCy7ljSWu23IBGqJu3grSCeX87PBksMWRaWg==","time":1665086067175,"size":10220,"metadata":{"time":1665086067170,"url":"https://registry.npmjs.org/@types%2fflat","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"cache-control":"public, max-age=300","content-type":"application/vnd.npm.install-v1+json","date":"Thu, 06 Oct 2022 19:54:27 GMT","etag":"\"672e4aed23f8715ffcba5b3f5d9f1116\"","last-modified":"Mon, 15 Aug 2022 08:27:55 GMT","vary":"accept-encoding, accept"},"options":{"compress":true}}}

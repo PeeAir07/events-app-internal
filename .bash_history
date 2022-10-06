@@ -86,3 +86,90 @@ git clone https://github.com/pranavkbansal/events-app-external
 git branch
 git branch new-feature-x
 git checkout new-feature-x
+git commit -a -m "I am Lost"
+git checkout main
+git branch
+git merge new-feature-x
+git pull
+git pull dockerfile
+ls 
+pull
+git pull Dockerfile
+help
+git pull
+git branch main
+git branch shared-repos
+git branch
+git branch shared-repos
+docker build
+docker run -d -p 8082:8082 -e SERVICE_PORT=8082 internal:v1.0
+docker search dockerfile
+docker pull dockerfile
+shared-repos
+open shared-repos
+git pull
+view shared-repos
+docker build -t your-docker-hub-id/external:v1.0
+copy dockerfile
+clone Dockerfile
+git clone
+git clone dockerfile
+git checkout main
+docker build -t peeair07/external:v1.0
+git checkout -b New-Feature-Pierre
+git merge
+git add .
+git checkout New-Feature-Pierre
+git merge
+git merge New-Feature-Pierre
+git checkout new-feature-pierre
+git checkout New-Feature-Pierre
+git push
+git push --set-upstream origin New-Feature-Pierre
+git pull
+ocker build -t your-docker-hub-id/external:v1.0 .
+ocker build -t peeair07/external:v1.0 .
+ocker build -t peeair07/external:v1.0
+ocker build -t peeair07/external:v1.0
+docker build -t peeair07/external:v1.0 .
+docker build -t peeair07/external:v1.0 .
+docker login
+docker push your-docker-hub-id/external:v1.0
+docker push peeair07/external:v1.0
+docker run -d -p 8082:8082 -e SERVICE_PORT=8082 peeair07/internal:v1.0
+cd events-app/external/
+cp ~/shared-repos/Dockerfile .
+cp ~/shared-repos/events-app-external/views/Dockerfile .
+cp ~/shared-repos/events-app-external/Dockerfile .
+ls
+cd ../internal/
+cp ~/shared-repos/events-app-external/Dockerfile .
+ls
+cd ../external/
+docker build -t peeair07/external:v1.0 .
+cd ../internal
+docker build -t peeair07/internal:v1.0 .
+cd events-app
+cd /events-app
+docker login
+cd ../external/
+docker login
+docker push peeair07/evternal:v1.0 .
+docker images
+docker run -d -p 8080:8080 -e SERVER='http://localhost:8082' --network="host" peeair07/external:v1.0
+cd
+git branch
+git checkout Coding Is Hard
+git checkout Coding-is-hard
+git branch coding-is-hard
+git add .
+git checkout 
+git merge
+git branch
+git checkout coding-is-hard
+git merge
+git merge coding-is-hard
+git merge https://github.com/pranavkbansal/events-app-external
+git pull https://github.com/pranavkbansal/events-app-external
+git checkout
+git checkout -b coding-is-hard

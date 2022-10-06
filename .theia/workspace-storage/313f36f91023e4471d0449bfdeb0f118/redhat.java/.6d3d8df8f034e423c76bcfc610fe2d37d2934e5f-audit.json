@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/user221/.theia/workspace-storage/313f36f91023e4471d0449bfdeb0f118/redhat.java/.6d3d8df8f034e423c76bcfc610fe2d37d2934e5f-audit.json",
+    "files": [
+        {
+            "date": 1665085089940,
+            "name": "/home/user221/.theia/workspace-storage/313f36f91023e4471d0449bfdeb0f118/redhat.java/client.log.2022-10-06",
+            "hash": "0887a49f2ac4e043ec18af51a741f1f6"
+        }
+    ]
+}

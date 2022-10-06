@@ -1,0 +1,10 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-11-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -noverify -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/user221/.theia/globalStorage/redhat.java/1.2.0/config_ss_linux -data /home/user221/.theia/workspace-storage/313f36f91023e4471d0449bfdeb0f118/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2022-10-06 19:38:10.560'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-11-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/user221/.theia/workspace-storage/313f36f91023e4471d0449bfdeb0f118/redhat.java -noverify -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/user221/.theia/globalStorage/redhat.java/1.2.0/config_linux -data /home/user221/.theia/workspace-storage/313f36f91023e4471d0449bfdeb0f118/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2022-10-06 19:38:10.766'
+}
