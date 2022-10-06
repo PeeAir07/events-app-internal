@@ -71,3 +71,7 @@ git config --global init.defaultBranch main
 git config --global -- list
 git config --global --list
 git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/PeeAir07/events-app-internal
+git init
