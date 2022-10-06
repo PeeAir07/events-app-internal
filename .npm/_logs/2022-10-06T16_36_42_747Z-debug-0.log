@@ -1,0 +1,125 @@
+0 verbose cli /usr/local/nvm/versions/node/v16.4.0/bin/node /usr/local/nvm/versions/node/v16.4.0/bin/npm
+1 info using npm@8.19.2
+2 info using node@v16.4.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/user221/.cache/typescript/3.8/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/home/user221/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 12ms
+19 timing npm:load:configload Completed in 12ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install @types/sinon@ts3.8 @types/lodash.get@ts3.8 @types/nise@ts3.8 @types/semver-compare@ts3.8
+23 verbose argv "install" "--ignore-scripts" "@types/sinon@ts3.8" "@types/lodash.get@ts3.8" "@types/nise@ts3.8" "@types/semver-compare@ts3.8" "--save-dev" "--user-agent" "typesInstaller/3.8.3"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 4ms
+27 verbose logfile logs-max:10 dir:/home/user221/.npm/_logs
+28 verbose logfile /home/user221/.npm/_logs/2022-10-06T16_36_42_747Z-debug-0.log
+29 timing npm:load:logFile Completed in 6ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 28ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 17ms
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fsinon 158ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2flodash.get 499ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fnise 503ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fsemver-compare 504ms (cache miss)
+42 timing idealTree:userRequests Completed in 526ms
+43 silly idealTree buildDeps
+44 silly fetch manifest @types/sinon@10.0.11
+45 silly fetch manifest @types/lodash.get@4.4.6
+46 silly fetch manifest @types/nise@1.4.0
+47 silly fetch manifest @types/semver-compare@1.0.1
+48 silly placeDep ROOT @types/lodash.get@4.4.6 OK for:  want: 4.4.6
+49 silly placeDep ROOT @types/nise@1.4.0 OK for:  want: 1.4.0
+50 silly placeDep ROOT @types/semver-compare@1.0.1 OK for:  want: 1.0.1
+51 silly placeDep ROOT @types/sinon@10.0.11 OK for:  want: 10.0.11
+52 silly fetch manifest @types/lodash@*
+53 silly fetch manifest @types/sinonjs__fake-timers@*
+54 http fetch GET 200 https://registry.npmjs.org/@types%2fsinonjs__fake-timers 88ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/@types%2flodash 104ms (cache miss)
+56 timing idealTree:#root Completed in 160ms
+57 silly placeDep ROOT @types/lodash@4.14.186 OK for: @types/lodash.get@4.4.6 want: *
+58 timing idealTree:node_modules/@types/lodash.get Completed in 2ms
+59 timing idealTree:node_modules/@types/lodash Completed in 0ms
+60 timing idealTree:node_modules/@types/nise Completed in 0ms
+61 timing idealTree:node_modules/@types/semver-compare Completed in 0ms
+62 silly placeDep ROOT @types/sinonjs__fake-timers@8.1.2 OK for: @types/sinon@10.0.11 want: *
+63 timing idealTree:node_modules/@types/sinon Completed in 3ms
+64 timing idealTree:node_modules/@types/sinonjs__fake-timers Completed in 0ms
+65 timing idealTree:buildDeps Completed in 170ms
+66 timing idealTree:fixDepFlags Completed in 0ms
+67 timing idealTree Completed in 720ms
+68 timing reify:loadTrees Completed in 721ms
+69 timing reify:diffTrees Completed in 2ms
+70 silly reify moves {}
+71 timing reify:retireShallow Completed in 1ms
+72 timing reify:createSparse Completed in 3ms
+73 timing reify:loadBundles Completed in 0ms
+74 silly audit bulk request {
+74 silly audit   'types-registry': [ '0.1.612' ],
+74 silly audit   '@types/lodash.get': [ '4.4.6' ],
+74 silly audit   '@types/nise': [ '1.4.0' ],
+74 silly audit   '@types/semver-compare': [ '1.0.1' ],
+74 silly audit   '@types/sinon': [ '10.0.11' ],
+74 silly audit   '@types/lodash': [ '4.14.186' ],
+74 silly audit   '@types/sinonjs__fake-timers': [ '8.1.2' ]
+74 silly audit }
+75 silly tarball no local data for @types/sinonjs__fake-timers@https://registry.npmjs.org/@types/sinonjs__fake-timers/-/sinonjs__fake-timers-8.1.2.tgz. Extracting by manifest.
+76 silly tarball no local data for @types/lodash@https://registry.npmjs.org/@types/lodash/-/lodash-4.14.186.tgz. Extracting by manifest.
+77 silly tarball no local data for @types/sinon@https://registry.npmjs.org/@types/sinon/-/sinon-10.0.11.tgz. Extracting by manifest.
+78 silly tarball no local data for @types/semver-compare@https://registry.npmjs.org/@types/semver-compare/-/semver-compare-1.0.1.tgz. Extracting by manifest.
+79 silly tarball no local data for @types/nise@https://registry.npmjs.org/@types/nise/-/nise-1.4.0.tgz. Extracting by manifest.
+80 silly tarball no local data for @types/lodash.get@https://registry.npmjs.org/@types/lodash.get/-/lodash.get-4.4.6.tgz. Extracting by manifest.
+81 http fetch GET 200 https://registry.npmjs.org/@types/sinon/-/sinon-10.0.11.tgz 76ms (cache miss)
+82 timing reifyNode:node_modules/@types/sinon Completed in 91ms
+83 http fetch GET 200 https://registry.npmjs.org/@types/sinonjs__fake-timers/-/sinonjs__fake-timers-8.1.2.tgz 82ms (cache miss)
+84 timing reifyNode:node_modules/@types/sinonjs__fake-timers Completed in 94ms
+85 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 141ms
+86 timing auditReport:getReport Completed in 143ms
+87 silly audit report {}
+88 timing auditReport:init Completed in 0ms
+89 timing reify:audit Completed in 144ms
+90 http fetch GET 200 https://registry.npmjs.org/@types/semver-compare/-/semver-compare-1.0.1.tgz 201ms (cache miss)
+91 timing reifyNode:node_modules/@types/semver-compare Completed in 216ms
+92 http fetch GET 200 https://registry.npmjs.org/@types/lodash.get/-/lodash.get-4.4.6.tgz 231ms (cache miss)
+93 timing reifyNode:node_modules/@types/lodash.get Completed in 249ms
+94 http fetch GET 200 https://registry.npmjs.org/@types/nise/-/nise-1.4.0.tgz 233ms (cache miss)
+95 timing reifyNode:node_modules/@types/nise Completed in 250ms
+96 http fetch GET 200 https://registry.npmjs.org/@types/lodash/-/lodash-4.14.186.tgz 787ms (cache miss)
+97 timing reifyNode:node_modules/@types/lodash Completed in 833ms
+98 timing reify:unpack Completed in 836ms
+99 timing reify:unretire Completed in 0ms
+100 timing build:queue Completed in 16ms
+101 timing build:deps Completed in 16ms
+102 timing build Completed in 17ms
+103 timing reify:build Completed in 18ms
+104 timing reify:trash Completed in 0ms
+105 timing reify:save Completed in 108ms
+106 timing reify Completed in 1744ms
+107 silly ADD node_modules/@types/sinonjs__fake-timers
+108 silly ADD node_modules/@types/lodash
+109 silly ADD node_modules/@types/sinon
+110 silly ADD node_modules/@types/semver-compare
+111 silly ADD node_modules/@types/nise
+112 silly ADD node_modules/@types/lodash.get
+113 timing command:install Completed in 1770ms
+114 verbose exit 0
+115 timing npm Completed in 1945ms
+116 info ok

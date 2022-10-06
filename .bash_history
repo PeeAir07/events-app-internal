@@ -35,3 +35,18 @@ git push -u origin main
 git branch
 git branch new-feature-x
 git checkout new-feature-x
+git commit -a -m "I am Lost"
+git checkout main
+git checkout new-feature
+ 
+git commit -a
+unzip events-app.zip
+cd events-app/internal
+npm install
+node server.js
+nide server.js
+cd events-app/external
+npm install
+git branch
+npm start
+git init
