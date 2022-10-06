@@ -21,3 +21,10 @@ git init
 get add
 get add.
 git add
+git add .
+git commit -m "initial commit"
+git remote add origin "https://github.com/PeeAir07/events-app-internal.git"
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git init
