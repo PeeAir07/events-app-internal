@@ -28,3 +28,10 @@ git push -u origin main
 git push -u origin main
 git push -u origin main
 git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/PeeAir07/events-app-external.git
+git push -u origin main
+git branch
+git branch new-feature-x
+git checkout new-feature-x
