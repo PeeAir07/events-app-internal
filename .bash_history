@@ -59,3 +59,15 @@ git ommit -m "initial commit"
 git commit -m "initial commit"
 git remote add origin https://github.com/PeeAir07/events-app-external.git
 git push -u origin main
+git add .
+git commit -m "my first change"
+git push origin main
+git config --global user.email "your_github_email_address"
+git config --global user.email "pero_popo@hotmail.com"
+git config --global user.email "pero_popo@hotmail.com"
+git config --global user.email pero_popo@hotmail.com
+git config --global user.name PeeAir07
+git config --global init.defaultBranch main
+git config --global -- list
+git config --global --list
+git init
