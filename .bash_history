@@ -314,3 +314,15 @@ npm test
 git branch
 git checkout coding-is-hard
 git commit
+git commit -a -m "12:45 update"
+git checkout main
+git pull .
+git merge coding-is-hard
+git fetch all
+git fetch --all
+git push -u origin
+git push -u origin coding-is-hard
+git branch
+git status
+git add . 
+git commit
