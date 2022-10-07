@@ -182,3 +182,135 @@ git branch
 git checkout main
 git checkout coding-is-hard
 git commit -a -m "some message"
+git commit -a -m "coding is hard"
+git checout coding-is-hard
+git checkout coding-is-hard
+git checkout main
+git status
+git update-index --no-skip-worktree path/to/file.xml
+git add . main
+git clear
+minikube start
+minikube status
+mkdir ~/events-app/kube
+cd ~/events-app/kube
+wget https://storage.googleapis.com/roi-materials/events-app-yaml.zip
+unzip events-app-yaml.zip
+kubectl apply -f externalservice.yaml
+kubectl apply -f externaldeployment.yaml
+kubectl apply -f internaldeployment.yaml
+kubectl apply -f internalservice.yaml 
+minikube tunnel & kubectl port-forward service/demo-ui-service 8080:80
+kubectl get pods -w 
+kubectl get svc 
+kubec1 apply -f internaldeployment.yaml 
+kube1 apply -f internaldeployment.yaml
+kubect1 apply -f internaldeployment.yaml 
+kubect1
+ls
+cd events-app
+cd kube
+kubect1 apply -f internaldeployment.yaml 
+kubectl apply -f internaldeployment.yaml 
+kubectl get deployments
+kubectl apply -f internalservice.yaml 
+kubectl apply -f internaldeployment.yaml 
+kubectl apply -f internalservice.yaml 
+kubectl apply -f externaldeployment.yaml 
+kubectl apply -f externalservice.yaml 
+minikube tunnel & kubectl port-forward service/demo-ui-service 8080:80
+cd events-app/kube/
+minikube tunnel & kubectl port-forward service/demo-ui-service 8080:80
+docker ps -a
+docker stop p
+docker stop peaceful_hellman 
+kubectl get pods -w 
+minikube status
+kubectl get pods
+cd shared-repos/events-app-external/
+docker build
+docker build -t peeair07/external:v1.1 .
+docker push peeair07/external:v1.1
+cd ../
+ls
+cd ../
+ls
+cd events-app/internal/
+docker build -t peeair07/internal:v1.1 .
+docker push peeair07/internal:v1.1
+cd events-app/kube/
+kubectl apply -f .
+minikube tunnel & kubectl port-forward service/demo-ui-service 8080:80
+kubectl get pods
+kubectl get services
+pkill -f "minikube tunnel"
+kubectl pods
+yes
+cd
+cd events-app/external/kube
+cd events-app/kube/
+kubectl get pods
+kubectl get services
+pkill -f "minikube tunnel"
+minikube status
+minikube profile list
+minikube start
+pkill -f "minikube tunnel"
+helm repo add cnd https://storage.googleapis.com/roicharts
+helm repo list
+helm search repo mario
+helm install demo cnd/mario-chart
+kubectl get pods
+kubectl get svc
+minikube tunnel & kubectl port-forward service/demo-mario-chart 8090:80
+helm uninstall demo
+kubectl get pods
+pkill -f "minikube tunnel"
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm repo list
+helm search repo
+helm install mytomcat bitnami/tomcat 
+kubectl get deploy
+kubectl get pods
+kubectl get svc
+ helm uninstall mytomcat
+ helm uninstall demo
+helm list
+minikube tunnel & kubectl port-forward service/mytomcat 8090:80
+cd ~/events-app
+wget https://storage.googleapis.com/roi-materials/CND/pipeline.yaml
+cd ~/events-app
+wget https://storage.googleapis.com/roi-materials/CND/pipeline.yaml
+cd../ex
+cd external/
+git pull
+git fetch
+git fetch --all
+git clone https://github.com/pranavkbansal/events-app-external
+git pull https://github.com/pranavkbansal/events-app-external
+git merge https://github.com/pranavkbansal/events-app-external
+git merge
+git checkout 
+git status
+git branch
+git bash
+git add . 
+git commit
+cd events-app/external/
+git push origin main
+git push origin main
+git push origin main
+npm test
+git add .
+cd events-app/external/
+git push
+git push --set-upstream origin coding-is-hard
+git push
+git push --set-upstream origin coding-is-hard
+npm install
+npm start
+npm test
+npm test
+git branch
+git checkout coding-is-hard
+git commit
