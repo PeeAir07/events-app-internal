@@ -326,3 +326,10 @@ git branch
 git status
 git add . 
 git commit
+git commit -a -m "12:51 update"
+git push origin main
+git status
+git push
+git status
+git commit -a
+git commit -a "12:53 update"
